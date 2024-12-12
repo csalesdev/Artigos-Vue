@@ -1,5 +1,4 @@
 <script>
-import logo from "../assets/banner.png";
 import Card from "../components/Card.vue";
 
 export default {
@@ -11,37 +10,37 @@ export default {
       // Array com os dados dos cards
       cards: [
         {
-          image: "../src/assets/image-card1.png",
+          image: "../image-card1.png",
           title: "O que é linguagem de programação? Conheça as principais",
           description:
             "Uma das mais populares vertentes da tecnologia da informação, a área de...",
         },
         {
-          image: "../src/assets/image-card2.png",
+          image: "../image-card2.png",
           title: "HTML é uma linguagem de programação?",
           description:
             "HTML5 é uma linguagem de marcação para a World Wide Web e é uma tecnologia chave da Internet,",
         },
         {
-          image: "../src/assets/image-card3.png",
+          image: "../image-card3.png",
           title: "O que é uma IDE?",
           description:
             "Ambiente de Desenvolvimento Integrado é um programa de computador que reúne características e ferramentas de apoio ao desenvolvimento de software",
         },
         {
-          image: "../src/assets/image-card4.png",
+          image: "../image-card4.png",
           title: "ChatGPT é um chatbot desenvolvido pela OpenAI",
           description:
             'O nome "ChatGPT" combina "Chat", referindo-se à sua funcionalidade de chatbot, e "GPT", que significa Generative Pre-trained Transformer',
         },
         {
-          image: "../src/assets/image-card5.png",
+          image: "../image-card5.png",
           title: "O GitHub Copilot",
           description:
             "é uma ferramenta de inteligência artificial desenvolvida pelo GitHub em conjunto com a OpenAI",
         },
         {
-          image: "../src/assets/image-card6.png",
+          image: "../image-card6.png",
           title: "GIT e GitHub: o que são e quais as diferenças entre eles?",
           description:
             "Git e GibHub são dois softwares de controle de versão essenciais para...",

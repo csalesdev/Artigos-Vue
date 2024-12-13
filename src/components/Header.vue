@@ -1,17 +1,19 @@
 <script setup>
 import logo from "../assets/logo-header.png";
+import { RouterLink } from "vue-router";
 </script>
+
 <template>
   <header>
     <img :src="logo" alt="Logo do site" />
     <nav>
-      <ul>
-        <a href=""><li>Início</li></a>
-        <a href=""><li>Artigos</li></a>
-      </ul>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/articles">Artigos</RouterLink>
+      <RouterLink to="/about">Sobre</RouterLink>
     </nav>
   </header>
 </template>
+
 <style scoped lang="scss">
 header {
   display: flex;
@@ -19,15 +21,6 @@ header {
   justify-content: space-between;
   padding: 0 10vw;
   height: 10vh;
-}
-
-ul {
-  display: flex;
-  gap: 30px;
-}
-
-li {
-  list-style: none;
 }
 
 a {
@@ -43,5 +36,9 @@ a:hover {
 
 img {
   width: 3.5%;
+}
+nav {
+  display: flex;
+  gap: 20px;
 }
 </style>

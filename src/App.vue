@@ -1,13 +1,14 @@
 <script setup>
-import Header from "./components/Header.vue";
-import Home from "./components/Home.vue";
-import Footer from "./components/Footer.vue";
 import "./globalStyle.scss";
+import Header from "./components/Header.vue";
+import Home from "./pages/Home.vue";
+import Footer from "./components/Footer.vue";
+import { RouterView } from "vue-router";
 </script>
 
 <template>
   <Header />
-  <Home />
+  <RouterView />
   <Footer />
 </template>
 

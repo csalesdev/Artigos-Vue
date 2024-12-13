@@ -26,6 +26,9 @@ export default {
 </template>
 
 <style scoped lang="scss">
+.card:hover {
+  border: solid 2px rgb(36, 53, 128);
+}
 .card {
   border: solid 1px black;
   border-radius: 10px;

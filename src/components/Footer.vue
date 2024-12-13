@@ -6,9 +6,9 @@ import LogoFooter from "../assets/logo-footer.png";
   <footer>
     <nav>
       <ul>
-        <li><a href="#Contatos">Meus Contatos</a></li>
-        <li><a href="#LinkedIn">LinkedIn</a></li>
-        <li><a href="#GitHub">GitHub</a></li>
+        <li><a href="contatos">Meus Contatos</a></li>
+        <li><a href="https://www.linkedin.com/in/caua-sales/">LinkedIn</a></li>
+        <li><a href="https://github.com/csalesdev">GitHub</a></li>
       </ul>
     </nav>
     <div>

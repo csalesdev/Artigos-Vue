@@ -1,6 +1,10 @@
 <script>
 export default {
   props: {
+    id: {
+      type: Number,
+      required: true,
+    },
     image: {
       type: String, // Define que "image" deve ser uma string
       required: true, // Dita que essa prop é obrigatória
@@ -27,11 +31,12 @@ export default {
 
 <style scoped lang="scss">
 .card:hover {
-  border: solid 2px rgb(36, 53, 128);
+  border: solid 2px rgba(0, 0, 0, 0.493);
 }
 .card {
-  border: solid 1px black;
+  border: solid 2px black;
   border-radius: 10px;
+  height: 100%;
 
   h3,
   p {

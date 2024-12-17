@@ -5,7 +5,9 @@ import { RouterLink } from "vue-router";
 
 <template>
   <header>
-    <img :src="logo" alt="Logo do site" />
+    <RouterLink to="/">
+      <img :src="logo" alt="Logo do site" />
+    </RouterLink>
     <nav>
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/articles">Artigos</RouterLink>
@@ -21,6 +23,11 @@ header {
   justify-content: space-between;
   padding: 0 10vw;
   height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
 a {
@@ -35,7 +42,7 @@ a:hover {
 }
 
 img {
-  width: 3.5%;
+  width: 30%;
 }
 nav {
   display: flex;

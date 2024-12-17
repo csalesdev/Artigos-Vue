@@ -50,15 +50,27 @@ export default {
   background-image: url("../assets/banner.png");
   background-size: 100% 100%;
 
+  @media (max-width: 600px) {
+    height: 25vh;
+  }
+
   h1 {
     color: white;
     font-size: 3em;
     font-family: "Poppins", sans-serif;
+
+    @media (max-width: 600px) {
+      font-size: 1.5em;
+    }
   }
 }
 
 .section2 {
   padding: 10vh 10vw;
+
+  @media (max-width: 600px) {
+    padding: 10vh 5vw;
+  }
 
   h2 {
     font-family: "Poppins", sans-serif;
@@ -73,6 +85,10 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin: 10vh 0;
+
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 a {

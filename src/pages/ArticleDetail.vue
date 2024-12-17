@@ -36,11 +36,20 @@ onMounted(() => {
 <style scoped lang="scss">
 main {
   padding: 5vh 10vw;
+
+  @media (max-width: 600px) {
+    padding: 5vw;
+  }
 }
 
 iframe {
   max-width: 100%;
   margin: 20px 0 20px 20px;
+
+  @media (max-width: 600px) {
+    max-height: 240px;
+    margin: 10px 0 10px 10px;
+  }
 }
 
 h2,
@@ -49,10 +58,18 @@ h1 {
   font-size: 2em;
   font-weight: 500;
   color: #121214;
+
+  @media (max-width: 600px) {
+    margin: 20px 0 20px 0;
+  }
 }
 
 p {
   font-size: 1.5em;
   margin: 20px 0 0 20px;
+
+  @media (max-width: 600px) {
+    margin: 10px 0 0 20px;
+  }
 }
 </style>

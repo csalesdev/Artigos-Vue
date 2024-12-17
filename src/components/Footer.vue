@@ -32,6 +32,10 @@ footer {
   height: 30vh;
   background-color: #12254d;
   padding: 0 10vw;
+
+  @media (max-width: 600px) {
+    padding: 0 5vw;
+  }
 }
 
 a,
@@ -39,6 +43,10 @@ h3 {
   color: white;
   list-style: none;
   text-decoration: none;
+
+  @media (max-width: 600px) {
+    font-size: 1em;
+  }
 }
 
 a:hover {
@@ -50,10 +58,14 @@ li {
   font-size: 1.5em;
   font-weight: 600;
   padding: 10px 0;
+
+  @media (max-width: 600px) {
+    font-size: 1.2em;
+  }
 }
 
 img {
-  width: 10%;
+  width: 25%;
 }
 
 div {
@@ -63,5 +75,12 @@ div {
   gap: 20px;
   position: relative;
   bottom: 50px;
+
+  @media (max-width: 600px) {
+    flex-direction: column-reverse;
+    align-items: end;
+    gap: 20px;
+    top: 5px;
+  }
 }
 </style>

@@ -60,6 +60,10 @@
 <style scoped lang="scss">
 main {
   padding: 5vh 10vw;
+
+  @media (max-width: 600px) {
+    padding: 5vh 5vw;
+  }
 }
 h2 {
   font-family: "Poppins", sans-serif;

@@ -28,6 +28,10 @@ header {
   z-index: 2;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: white;
+
+  @media (max-width: 600px) {
+    padding: 5vw;
+  }
 }
 
 a {

@@ -14,7 +14,7 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div v-if="article">
+  <main v-if="article">
     <h1>| {{ article.title }}</h1>
     <iframe
       width="1118"
@@ -29,12 +29,12 @@ onMounted(() => {
     <p>
       {{ article.completeDescription }}
     </p>
-  </div>
+  </main>
   <p v-else>Carregando artigo...</p>
 </template>
 
 <style scoped lang="scss">
-div {
+main {
   padding: 5vh 10vw;
 }
 

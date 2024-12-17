@@ -9,7 +9,7 @@ import { RouterLink } from "vue-router";
       <img :src="logo" alt="Logo do site" />
     </RouterLink>
     <nav>
-      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/">Início</RouterLink>
       <RouterLink to="/articles">Artigos</RouterLink>
       <RouterLink to="/about">Sobre</RouterLink>
     </nav>

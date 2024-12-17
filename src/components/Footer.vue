@@ -18,7 +18,7 @@ import LogoFooter from "../assets/logo-footer.png";
       </ul>
     </nav>
     <div>
-      <h3>© 2024 | All Rights Reserved | Cauã Sales</h3>
+      <h3>© 2024 | Direitos Reservados | Cauã Sales</h3>
       <img :src="LogoFooter" alt="" />
     </div>
   </footer>

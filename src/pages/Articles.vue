@@ -46,7 +46,7 @@ export default {
 
   @media (max-width: 600px) {
     grid-template-columns: repeat(1, 1fr);
-    margin: 5vh;
+    margin: 5vh 5vw;
   }
 }
 
@@ -55,10 +55,10 @@ h2 {
   font-size: 2em;
   font-weight: 500;
   color: #121214;
-  margin: 5vh 20vh;
+  margin: 5vh 10vw;
 
   @media (max-width: 600px) {
-    margin: 5vh;
+    margin: 5vh 5vw;
   }
 }
 
